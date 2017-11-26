@@ -1,0 +1,21 @@
+<style>
+
+#header {
+    background-color:#115EA2;
+    height:100px;
+    width:97.5;
+    position: relative;
+}
+#navigation {
+    position:absolute;
+    top:0;
+       /*left:0;*/
+    right:0;
+    /*bottom:0;*/s
+    width:70%;
+    background-color:gray;
+    color:green;
+    height:35px;
+    text-align:center;
+    padding-top:15px;
+</style>

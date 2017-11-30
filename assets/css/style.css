@@ -181,7 +181,6 @@ p, form, a {
 
 .work {
   position: relative;
-  /*overflow: auto;*/
   float: left;
 }
 
@@ -555,7 +554,3 @@ textarea.form-length {
         max-width: 72.5%;
         min-width: 72.5%;
     }
-
-
-
-}

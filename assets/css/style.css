@@ -379,14 +379,14 @@ textarea.form-length {
 @media screen and (max-width: 768px) {
 
     .main-section {
-        width: 80%;
+        width: 70%;
         margin-bottom: 10px;
         margin-left: 40px;
         
     }
 
     .sidebar {
-        max-width: 81.5%;
+        max-width: 72%;
         margin-left: 40px;
         margin-right: 100px;
         margin-bottom: 30px;
@@ -419,15 +419,18 @@ textarea.form-length {
 
     }
 
+
     .work h3 nth-child(odd) {
         width: 80%;
         max-width: 80%;
+        height: auto;
     }
 
     .work:nth-child(even) h3 {
         width: 87%;
         max-width: 87%;
         margin-left: 0px;
+        height: auto;
     }
 
 
@@ -451,15 +454,14 @@ textarea.form-length {
     }
 
     #main-container {
-        width: 70%;
-        max-width: 70%;
+        width: 40%;
+        max-width: 40%;
     }
 
     .sidebar {
-        width: 100%;
-        max-width: 100%;
-        margin-left: -30px;
-        margin-right: -30px;
+        width: 105%;
+        max-width: 105%;
+         margin-right: -30px;
         margin-left: -30px;
         margin-right: 0px;
         position: static;
@@ -523,12 +525,13 @@ textarea.form-length {
     }
 
     #image1, #image2, #image3, #image4, #image5, #image6 {
-        width: 85%;
+        /*width: 85%;
         max-width: 85%;
         min-width: 85%;
-        height: 200px;
+        height: 200px;*/
+        max-width: 100%;
+        height: auto;
         float: none;
-        clear: both;
     }
 
     #image2, #image4, #image6 {
@@ -537,20 +540,23 @@ textarea.form-length {
     }
 
     #image1, #image3, #image5 {
-        margin-left: 0px;
+        margin-left: 15px;
         padding-top: 0px;
     }
 
     .work:nth-child(odd) h3 {
-        width: 72.5%;
-        max-width: 72.5%;
-        min-width: 72.5%;
+        width: 90%;
+        max-width: 90%;
+        /*min-width: 72.5%;*/
         margin-bottom: 10px;
-        margin-left: 0px;
+        margin-left: 15px;
+        padding: 5px;
     }
 
     .work:nth-child(even) h3 {
-        width: 72.5%;
-        max-width: 72.5%;
-        min-width: 72.5%;
+        width: 96%;
+        max-width: 96%;
+        /*max-width: 72.5%;
+        min-width: 72.5%;*/
+        padding: 5px;
     }

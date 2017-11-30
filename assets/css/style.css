@@ -185,7 +185,7 @@ p, form, a {
 
 .work {
   position: relative;
-  overflow: auto;
+  /*overflow: auto;*/
   float: left;
 }
 
@@ -203,7 +203,7 @@ p, form, a {
 .work h3 {
   position: absolute;
   bottom: 30px;
-  width: 200px;
+  width: 77%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -217,6 +217,7 @@ p, form, a {
 
 .work:nth-child(even) h3 {
     margin-left: 30px;
+    width: 69%;
 }
 
 
@@ -265,6 +266,16 @@ p, form, a {
     margin-right: 30px;
     margin-bottom: 20px;
     padding-top: 20px;
+}
+
+#image6 {
+    width: 230px;
+    height: 230px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
 }
 
 .project1:hover {
@@ -350,6 +361,16 @@ textarea.form-length {
         margin-left: 0px;
     }
 
+     .work h3 {
+        width: 77%;
+        max-width: 87%;
+    }
+
+    .work:nth-child(even) img {
+        margin-left: -80px;
+}
+
+
 }
 
 /*Takes effect when the browser's width is 768px or less.*/
@@ -386,7 +407,7 @@ textarea.form-length {
         width: 100%
     }
 
-    #image2, #image4 {
+    #image2, #image4, #image6 {
         margin-bottom: 20px;
         padding-top: 10px;
         margin-right: 0px;
@@ -396,9 +417,21 @@ textarea.form-length {
 
     }
 
-    #image5 {
+    /*#image5 {
         margin-right: 100px;
+    }*/
+
+    .work h3 nth-child(odd) {
+        width: 80%;
+        max-width: 80%;
     }
+
+    .work:nth-child(even) h3 {
+        width: 87%;
+        max-width: 87%;
+        margin-left: 0px;
+}
+
 
 }
 
@@ -414,19 +447,20 @@ textarea.form-length {
     }
 
     .container {
-        max-width: 100%;
-        width: 90%
-       /* margin-left:0px;*/
+        max-width: 80%;
+        width: 80%
+        margin-right: -50px;
     }
 
     #main-container {
         width: 70%;
+        max-width: 70%;
     }
 
     .sidebar {
-        width: 88%;
+        width: 100%;
         max-width: 100%;
-        margin-left: -30px;
+        margin-left: -40px;
         margin-right: -30px;
         /*margin-left: 70px;
         margin-right: 0px;
@@ -445,7 +479,7 @@ textarea.form-length {
 
 
     #headshot {
-        width: 80%;
+        width: 70%;
         vertical-align: center;
         height: 50%;
         margin-bottom: 10px;
@@ -453,30 +487,11 @@ textarea.form-length {
         float: none;
     }
 
-   /* .name-block {
-        float: none;
-        padding: 20px;
-        width: 100%
-        left: 50px;
-        margin-left: 20px;
-        position: absolute;
-        left: 0px;
-    }
-
-   /* .topnav {
-        clear: both;
-        float: none;
-        padding: 10px;
-        height: 10px;
-        width: 100%
-        margin-right: 105px;
-        padding-top: 25px;
-        background-color: black;
-    }*/
-
     .name-block{
         width: 100%;
-        margin-left: 0px;
+        max-width: 100%;
+        margin-right: -40px;
+        margin-left: 40px;
         position: static;
     }
 
@@ -485,7 +500,7 @@ textarea.form-length {
       float: none;
       width: 99%;
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: -50px;
       position: static;
       background-color: #fff;
     }
@@ -499,11 +514,20 @@ textarea.form-length {
         width: 33.33%;
     }
 
+    .topnav ul {
+        margin: -30px;
+        padding: 10px;
+        float: none;
+        text-align: center;
+
+    }
+
     .header {
         position: static;
         width: 100%;
-        margin-left: -30px;
-        margin-right: -5px;
+        max-width: 100%;
+        margin-left: -80px;
+        margin-right: 80px;
     }
 
 }
